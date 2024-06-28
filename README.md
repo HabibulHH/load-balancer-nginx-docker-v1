@@ -1,27 +1,5 @@
 # load-balancer-nginx-docker-v1
-  +-----------------+
-  |                 |
-  |    Client       |
-  |                 |
-  +--------+--------+
-           |
-           v
-  +-----------------+
-  |                 |
-  |     Nginx       |
-  |   Load Balancer |
-  |                 |
-  +--------+--------+
-           |
-    +------+------+
-    |             |
-    v             v
-+------+       +------+
-|      |       |      |
-| Node |       | Node |
-| App  |       | App  |
-|      |       |      |
-+------+       +------+
+![Architecture Diagram](./hld/system.png)
 
 
 # Dockerized Node.js Project with Nginx Load Balancing
