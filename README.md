@@ -1,6 +1,6 @@
 # load-balancer-nginx-docker-v1
 ![Architecture Diagram](./hld/system.png)
-
+check the hld in HLD folder 
 
 # Dockerized Node.js Project with Nginx Load Balancing
 
